@@ -4,7 +4,7 @@ $make_table = "<table border='1'>";
 for ($i = 1; $i < 16; $i++){
     $make_table .= "<tr>";
     for ($j = 1; $j < 6; $j++){
-            $make_table .= "<td>Row $i Cell $j";
+            $make_table .= "<td>Row $i Cell $j</td>";
         }
     $make_table .= "</tr>";
 }
